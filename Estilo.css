@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(241, 42, 151, 0.541);
+    background: url('https://i.pinimg.com/originals/ce/d3/c5/ced3c517c3efbd3ff6cdebebc2176f27.jpg');
 }
 .Contenedor{
     display: flex;
@@ -22,7 +22,7 @@ body{
     align-items: center;
     height: 25rem;
     width: 20rem;
-    background-color: #a646da;
+    background-color: antiquewhite;
     border-radius: 50px;
     border: solid ;
     box-shadow: 0px 2px 10px 1px;
