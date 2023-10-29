@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Registro de Jugadores</h1>
+    
+    <form id="nombreForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <button type="button" onclick="agregarNombre()">Agregar</button>
+    </form>
+    
+    <table id="tablaNombres" border="1">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+        </tr>
+    </table>
+    
+    <p>Total de registros: <span id="totalRegistros">0</span></p>
+
+    <a href="Final.html">Jugar</a>
+
     
 </body>
 </html>
